@@ -1,0 +1,67 @@
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100px;
+}
+.title{
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(32, 178, 170);
+    font-family: Cambria, serif;
+    font-size: 20px;
+}
+.left{
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    font-family: Cambria, serif;
+    font-size: 16px;
+}
+.right{
+    display: inline-block;
+    width: calc(60% - 4px);
+    vertical-align: top;
+    text-align: left;
+    font-family: Cambria, serif;
+    font-size: 20px;
+}
+.download{
+    list-style: none;
+    text-align: left;
+}
+.download li a:hover{
+    color: lightseagreen;
+    text-decoration: none;
+}
+header{
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+.list{
+    line-height: 20px;
+    text-decoration-color: black;
+    background: rgb(122, 201, 233);
+    margin-top: auto;
+    text-align: center;
+}
+.list li{
+    list-style: none;
+    display: inline-block;
+}
+.list li a{
+    display: inline-block;
+    width: 100px;
+    text-decoration: none;
+}
+a{
+    font-size: 20px;
+    padding: 16px;
+    color: black;
+    text-decoration: none;
+}
+.list li a:hover{
+    color: white;
+    text-decoration: none;
+}
